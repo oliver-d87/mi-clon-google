@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+a{text-decoration: none;
+
+}
+
+a:hover{text-decoration: underline;
+}
+
+.top-bar{
+  height: 150px;
+
+}
+
+.top-bar a{
+  color:black;
+}
+
+.top-bar #apps {
+  width: 14px;
+
+}
+
+.top-bar #icono {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.top-bar nav{
+  float: right;
+  margin: 20px 20px;
+}
+
+.top-bar a{
+  /* margin-top:10px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  margin-left: 5px; */
+    /* hay diferentes formas de comentar, recuerda que pueden ser parejos, x & y o clockwise */
+  margin:10px 8px;
+  font-size: 15px;
+}
+
+.top-bar img{
+  vertical-align: middle;
+}
+
+.google-logo {
+  max-width: 41%;
+  margin-left: 437px;
+  margin-top: 45px;
+  margin-bottom: 28px;
+}
+
+.google-logo img{
+  max-width: 55%;
+  margin-left: 130px;
+  margin-top:35px;
+  margin-bottom: 1px;
+}
+
+.search-area {
+  text-align: center
+}
+
+.search-area input{
+  width: 555px;
+  height: 47px;
+  font-size: 17px;
+  margin-left: 25px;
+  border-color:grey;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+
+.search-button button{
+  width: 155px;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 27px;
+  margin-left: 10px;
+  border-radius: 10px;
+
+
+}
+
+.search-button button:hover{
+  box-shadow: 1px 1px 1px;
+}
+
+.search-area div{
+  margin:0 25px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e4e4e4;
+  height: 14%;
+  font-size: 15px;
+
+}
+
+footer nav{
+  padding: 7px;
+
+}
+
+footer nav a{
+  padding: 0 10px;
+  color: grey;
+  vertical-align: middle;
+}
+
+.pais{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.footer-left {
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.footer-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+hr{
+  margin: 0;
+}
